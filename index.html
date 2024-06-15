@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="Home">
+        <nav>
+            <div class="left">Nitesh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <!-- <li><a href="#Projects">Projects</a></li> -->
+                    <li><a href="#Contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection" id="About">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Nitesh</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="paragraph">
+                    <p>I'm currently interning at Hostemind, focusing on mastering React.js for front-end development. I collaborate on projects, implementing features and troubleshooting issues. Excited to continue learning and contributing to innovative web applications.</p>
+                </div>
+                <div class="buttons">
+                    <button class="btn"><a
+                            href="https://drive.google.com/file/d/1Avtm8uW96Wxf_U4uQJLkIGeAdXNYDQga/view?usp=drive_link"
+                            target="_blank"><img class="img-logo" src="source/download.png" alt=""> Resume</a></button>
+                    <button class="btn"><a href="https://github.com/nitesh-eklare" target="_blank"><img class="img-logo"
+                                src="source/github.png" alt=""> Visit Github</a></button>
+                    <button class="btn"><a href="https://www.linkedin.com/in/nitesh-eklare-487215216"
+                            target="_blank"><img class="img-logo" src="source/linkedin.png" alt=""> Linkedin</a></button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="source/nitesh.jpg" alt="dev png">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection" id="Services">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="img-setup">
+                <div class="box">
+                    <div class="vertical">
+                        <img class="img-top" src="source/HTML.png" alt="devloperPNG">
+                        <div class="vertical-title">HTML Devloper</div>
+                        <div class="vertical-desc">as a HTML devloper i worked on some mini projects like as amazon
+                            clone
+                            and netflix clone.</div>
+                    </div>
+                    <div class="vertical">
+                        <img class="img-top" src="source/react.png" alt="devloperPNG">
+                        <div class="vertical-title">React Devloper</div>
+                        <div class="vertical-desc">As a react devloper i used my skill upon react in during my intership
+                            period. i have made lots of mini projects in react and also work on major and live project
+                            which
+                            is Attendance management system .</div>
+                    </div>
+                </div>
+                <div class="img-dev">
+                    <img src="source/BG.avif" alt="dev png">
+                </div>
+            </div>
+            
+        </section>
+
+    </main>
+    <footer id="Contact">
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Nitesh's Devloper Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>
+                        <h3>About Me</h3>
+                    </li>
+                    <li>Web Developer</li>
+                    <li>App Devloper</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>
+                        <h3>Contact Me</h3>
+                    </li>
+                    <li>MO: 9860262040</li>
+                    <li><img class="img-logo" src="source/gmail.png" alt="">nitesheklare@gmail.com</li>
+                    <li><img class="img-logo" src="source/facebbok.png" alt="">facebook</li>
+                    <li><img class="img-logo" src="source/instagram.png" alt="">Instagram</li>
+                    <li><img class="img-logo" src="source/twitter.png" alt="">twitter</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-rights">Copyright &#169; Nitesh'sportfolio.com || All rights reserved</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Devloper', 'App Devloper', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
